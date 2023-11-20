@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PicMorph</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>PicMorph</h1>
+        <div class="menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <article class="banner">
+                <h2 id="filter-type">Photos</h2>
+                <h1>Filter Gallery</h1>
+                <p>Explore a world of stunning images captured by talented photographers from around the globe. Use the filters to find the perfect image for your creative projects.</p>
+                <button>SEE MORE <span class="down">&#8595;</span></button>
+            </article>
+            <article class="image-slide">
+                <div id="slide"></div>
+                <div class="slide-buttons">
+                    <button id="leftArrow"><img src="./assets/left.png" alt=""></button>
+                    <button id="rightArrow"><img src="./assets/right.png" alt=""></button>
+                </div>
+            </article>
+        </section>
+
+        <section class="image-gallery">
+            <ul id="filterList">
+                <li id="allBtn" class="active">All</li>
+            </ul>
+            <div class="grid-wrapper">
+            <div class="image-container column1"></div>
+            <div class="image-container column2"></div>
+            <div class="image-container column3"></div>
+            <div class="image-container column4"></div>
+            <div class="image-container column5"></div>
+            <div class="image-container column6"></div>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="https://github.com">GitHub</a></li>
+                <li><a href="https://instagram.com">Instagram</a></li>
+                <li><a href="https://linkedin.com">LinkedIn</a></li>
+            </ul>
+        </nav>
+        <p>&copy; sumit-negi</p>
+    </footer>
+</body>
+<script type="module" src="script.js"></script>
+</html>
